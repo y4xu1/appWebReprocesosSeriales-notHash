@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../style/pFormar.css">
+        <link rel="stylesheet" href="../../style/forms.css">
+        <link rel="stylesheet" href="../../style/inputs.css">
+        <title>Inicio</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <center>
+                    <div class="imageNav">
+                        <img src="../../images/logo_challenger.png" alt="logoChallenger" id="challengerLogo">
+                        <!-- quedamos aca con el estilo -->
+                        <div class="menu">
+                            <a href="cambiarPssw.php">Cambiar contraseña</a>
+                            <a href="registro.php">Registrar usuario</a>
+                            <a href="inactivar.php">Inhabilitar usuario</a>
+                            <a href="cambioEstado.php">Registros de ordenes</a>
+                        </div>
+                    </div>
+                </center>
+                <div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <center>
+                <article class="form" id="changPss">
+                    <form action="admin/changePss.php" method="post">
+                        <center>
+                            <div>
+                                <h3>Cambiar contraseña</h3>
+                                <br>
+                                <input type="text" class="txt txtChangPssw" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
+        
+                                    <!-- <input type="password" class="txt txtChangPssw" name="password" id="password" placeholder="Contraseña"> -->
+        
+                                <input type="password" class="txt txtChangPssw" name="newPassword" id="newPassword" placeholder="Nueva contraseña">
+                                <input type="password" class="txt txtChangPssw" name="newPassword2" id="newPassword2" placeholder="Confirme la contraseña">
+                                <input type="submit" class="btn btnChangPssw" name="btnChangPsswAdmin" id="btnChangPsswAdmin" value="Cambiar contraseña">
+                            </div>
+                        </center>
+                    </form>
+                </article>
+            </center>
+        </main>
+        <footer>
+            <article>
+                <section class="cR">
+                    <center>
+                        <p>©️opyRight 2022 - 2023</p>
+                    </center>
+                </section>
+            </article>
+        </footer>
+        <script>
+
+        </script>
+    </body>
+</html>

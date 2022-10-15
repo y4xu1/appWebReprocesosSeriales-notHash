@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../style/pFormar.css">
+        <link rel="stylesheet" href="../../style/userStatus.css">
+        <link rel="stylesheet" href="../../style/inputs.css">
+        <title>Inicio</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <center>
+                    <div class="imageNav">
+                        <img src="../../images/logo_challenger.png" alt="logoChallenger" id="challengerLogo">
+                        <div class="menu">
+                            <center>
+                                <a href="cambiarPssw.php">Cambiar contraseña</a>
+                                <a href="registro.php">Registrar usuario</a>
+                                <a href="inactivar.php">Inhabilitar usuario</a>
+                                <a href="cambioEstado.php">Registros de ordenes</a>';
+                            </center>
+                        </div>
+                    </div>
+                </center>
+                <div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <center>
+                <article class="form" id="changStatus">
+                    <div clas="title">
+                        <h1>Inhabilitar usuarios</h1>
+                    </div>
+                    <br><br>
+                    <section id="searcher">
+                        <form action="admin/changStatus.php" method="post">
+                            <center>
+                                <input type="text" class="txt txtChangStatus" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
+                                <input type="submit" class="btn btnChangStatus" name="btnChangStatus" id="btnChangStatus" value="Inhabilitar usuario">
+                            </center>
+                        </form>
+                    </section>
+                    <section>
+                        <div class="tableScroll">
+                            <table>
+                                <form action="admin/changStatus.php" method="post">
+                                    <input type="submit" class="btn btnChangStatus" name="btnchagStatusSelect" id="btnchagStatusSelect" value="Inactivar los seleccionados">
+                                    <tr>
+                                        <th>Usuario</th>
+                                        <th>Nombre del usuario</th>
+                                        <!-- <th>Fecha de creación</th> -->
+                                        <th>Rol</th>
+                                        <th>Estado</th>
+                                        <th>Acción</th>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="csolarte"></td>
+                                        <td>Solarte Castillo Cristian Stiven                            	</td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="dfonseca"></td>
+                                        <td>Fonseca Carrillo Dayanna Alejandra                          	</td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="drome	   "></td>
+                                        <td>Romero Velasco Daissy	                                        </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="ecoba	   "></td>
+                                        <td>Coba Edith	                                                    </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="hsalgado"></td>
+                                        <td>Salgado Quintero Hernan Davvid                              	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="jcasas	   "></td>
+                                        <td>Casas Jorge	                                                    </td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="mateot	   "></td>
+                                        <td>Torres Mesa Mateo                                           	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rmelo	   "></td>
+                                        <td>Melo Rodrigo	                                                </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rvillega"></td>
+                                        <td>Villegas Quintero Richard                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="vvalenci"></td>
+                                        <td>Valencia Iba?ez Valentina                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="Usuario"></td>
+                                        <td>Nombre del usuario</td>
+                                        <!-- <th>Fecha de creación</th> -->
+                                        <td>Rol</td>
+                                        <td><center>Estado</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="dfonseca"></td>
+                                        <td>Fonseca Carrillo Dayanna Alejandra                          	</td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="drome	   "></td>
+                                        <td>Romero Velasco Daissy	                                        </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="ecoba	   "></td>
+                                        <td>Coba Edith	                                                    </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="hsalgado"></td>
+                                        <td>Salgado Quintero Hernan Davvid                              	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="jcasas	   "></td>
+                                        <td>Casas Jorge	                                                    </td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="mateot	   "></td>
+                                        <td>Torres Mesa Mateo                                           	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rmelo	   "></td>
+                                        <td>Melo Rodrigo	                                                </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rvillega"></td>
+                                        <td>Villegas Quintero Richard                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="vvalenci"></td>
+                                        <td>Valencia Iba?ez Valentina                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="Usuario"></td>
+                                        <td>Nombre del usuario</td>
+                                        <!-- <th>Fecha de creación</th> -->
+                                        <td>Rol</td>
+                                        <td><center>Estado</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="dfonseca"></td>
+                                        <td>Fonseca Carrillo Dayanna Alejandra                          	</td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="drome	   "></td>
+                                        <td>Romero Velasco Daissy	                                        </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="ecoba	   "></td>
+                                        <td>Coba Edith	                                                    </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="hsalgado"></td>
+                                        <td>Salgado Quintero Hernan Davvid                              	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="jcasas	   "></td>
+                                        <td>Casas Jorge	                                                    </td>
+                                        <td>2</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="mateot	   "></td>
+                                        <td>Torres Mesa Mateo                                           	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rmelo	   "></td>
+                                        <td>Melo Rodrigo	                                                </td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="rvillega"></td>
+                                        <td>Villegas Quintero Richard                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmPar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="vvalenci"></td>
+                                        <td>Valencia Iba?ez Valentina                                   	</td>
+                                        <td>1</td>
+                                        <td><center>Activo</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                    <tr class="clmImpar">
+                                        <td class="txtUser"><input type="text" class="txtRowTbl" name="nombreUsuario_n" id="nombreUsuario_n" value="Usuario"></td>
+                                        <td>Nombre del usuario</td>
+                                        <!-- <th>Fecha de creación</th> -->
+                                        <td>Rol</td>
+                                        <td><center>Estado</center></td>
+                                        <td><center><input type="checkbox" name="cbStatus_n" id="cbStatus_n"></center></td>
+                                    </tr>
+                                </form>
+                            </table>
+                        </div>
+                    </section>
+                </article>
+            </center>
+        </main>
+        <footer>
+            <article>
+                <section class="cR">
+                    <center>
+                        <p>©️opyRight 2022 - 2023</p>
+                    </center>
+                </section>
+            </article>
+        </footer>
+        <script>
+
+        </script>
+    </body>
+</html>

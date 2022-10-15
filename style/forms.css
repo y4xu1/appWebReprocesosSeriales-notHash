@@ -1,0 +1,29 @@
+main article[class="form"] {
+    width: 30%;
+}
+/* cambiar contraseña */
+#changPss form, #signUp form {
+    margin: 35% 0% 64.5% 0%;
+}
+#changPss form div {
+    padding: 20px;
+    /* margin: 0% 5%; */
+    width: 300px;
+    border-radius: 8px;box-shadow: 0px 0px 10px gray;
+    background: rgba(220, 220, 220, 0.3);
+}
+#changPss form div:hover, #signUp form div:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+#changPss form div h3, #signUp form div h3 {
+    margin-top: 15px;
+}
+#changPss form input, #signUp form input {
+    display: block;
+}
+#signUp form div {
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;box-shadow: 0px 0px 10px gray;
+    background: rgba(220, 220, 220, 0.3);
+}

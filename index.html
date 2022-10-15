@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/pFormar.css">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <center>
+                <div class="imageNav">
+                    <img src="images/logo_challenger.png" alt="logoChallenger" id="challengerLogo">
+                </div>
+            </center>
+        </nav>
+    </header>
+    <main>
+        <div id="logBackground"></div>
+        <center>
+            <br><br><br>
+            <article class="login">
+                <form action="script/php/log.php" method="post">
+                    <center>
+                        <fieldset>
+                            <legend>
+                                <!-- <b>Cambio de estado de registro integrado WMS - BAAN</b> -->
+                                <b>Inicio de sesión</b>
+                            </legend>
+                            <input type="text" name="userName" class="txtLog" id="txtUserLog" placeholder="Usuario de BAAN">
+                            <input type="password" name="userPss" class="txtLog" id="txtUserLog" placeholder="Contraseña">
+                            <input type="submit" name="btnLog" class="btnLog" value="Iniciar sesión">
+                            <!-- <a href="script/php/registro.php">Registrar nuevo usuario</a><br><br>
+                            <a href="script/php/cambiarPssw.php">cambiar contraseña</a> -->
+                        </fieldset>
+                    </center>
+                </form>
+            </article>
+        </center>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </main>
+    <footer>
+        <article>
+            <section class="cR">
+                <center>
+                    <p>©️opyRight 2022 - 2023</p>
+                </center>
+            </section>
+        </article>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+main section[id="contenidoReprocess"] {
+    padding: 2% 4%;
+}
+/*--Formulario de reprocesamiento--*/
+main section[id="contenidoReprocess"] .formReprocess {
+    width: 100%;
+    padding: 10px 15px;
+}
+/*  */
+main section[id="contenidoReprocess"] .listReprocess {
+    width: 100%;
+    padding: 10px 15px;
+}
+/*--Tabla de registros--*/
+.tableScroll {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 8px grey;
+    margin-bottom: 80px;
+}
+table[class="listBusqueda"] {
+    width: 100%;
+    border-collapse: collapse;
+}
+/*table[class="listBusqueda"] thead {
+    position: absolute;
+}*/
+#btnReprocesarSelected {
+    /* float: right; */
+    position: absolute;
+    /* margin: -51px 0px; */
+    margin-top: 520px;
+}
+table[class="listBusqueda"] th {
+    font-size: 14px;
+    color: white;
+    background-color: rgb(0, 140, 255);
+}
+table[class="listBusqueda"] th {
+    padding: 3px 5px;
+}
+table[class="listBusqueda"] td, table[class="listBusqueda"] th {
+    font-size: 13px;
+    border-left: 1px solid gray;
+}
+table[class="listBusqueda"] th {
+    border: 1px solid black;
+}
+table[class="listBusqueda"] tr[class="2"] {
+    background: gainsboro;
+}
+/*--Definición de tamaños de las columnas--*/
+.txtRowTbl {
+    width: 85%;
+    padding: 3px 5px;
+    background: rgb(255, 255, 255, 0);
+    border: none;
+}
+.colPar {
+    background: gainsboro;
+}
+table[class="listBusqueda"] th[id="1"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="2"] {
+    width: 95px;
+}
+table[class="listBusqueda"] th[id="3"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="4"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="5"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="6"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="7"] {
+    width: 200px;
+}
+table[class="listBusqueda"] th[id="8"] {
+    width: 10px;
+}
+table[class="listBusqueda"] th[id="9"] {
+    width: 95px;
+}
+table[class="listBusqueda"] th[id="11"] {
+    width: 10px;
+}

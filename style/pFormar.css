@@ -1,0 +1,83 @@
+/*all*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+/*header*/
+.navigation {
+    width: 100%;
+}
+.navigation .imageNav {
+    /* margin: 0% 40%; */
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background: rgb(10, 10, 10);
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+    box-shadow: 0px 0px 15px black;
+    margin-top: -5px;
+}
+.navigation .imageNav:hover {
+    padding-top: 10px;
+}
+.navigation .imageNav #challengerLogo {
+    width: auto;
+    margin: 20px 25px 18px 15px;
+}
+.navigation .imageNav .menu {
+    padding: 30px 0px;
+    float: right;
+}
+.navigation .imageNav .menu a {
+    padding: 12px;
+    margin: 500px 0px;
+    color: white;
+    text-decoration: none;
+}
+.navigation .imageNav .menu a:hover {
+    color: skyblue;
+}
+/* logout */
+.secLogOut {
+    padding: 8px 0px;
+    float: right;
+}
+.artLogOut {
+    position: absolute;
+    margin: 0px -80px;
+}
+.btnLogOut {
+    padding: 8px;
+    position: fixed;
+    background: transparent;
+    border: 4px groove rgb(0, 140, 255);
+    border-radius: 150px;
+    box-shadow: 0px 0px 2px gainsboro;
+}
+.btnLogOut:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px gainsboro;
+}
+.imgLogOut {
+    width: 30px;
+    margin-left: -5px;
+    padding: 0px 3px;
+}
+/*main*/
+main {
+    padding-top: 120px;
+    z-index: -50;
+}
+/*footer*/
+footer .cR {
+    padding: 5px;
+    background-color: rgb(10, 10, 10);
+}
+footer .cR p {
+    font-size: 12px;
+    color: white;
+}
